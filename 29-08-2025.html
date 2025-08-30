@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+   body {
+    background-color: rgb(243, 240, 236);
+    /* background-image: url('file:///C:/Users/ELITEBOOK/Downloads/111.png'); */
+    background-size:contain;         /* Ensures the image covers the whole background */
+    background-repeat: no-repeat;   /* Prevents tiling */
+    background-position: center;    /* Centers the image */
+   
+}
+
+
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid rgb(165, 164, 164);
+        padding: 15px;
+        border-radius: 15px;
+
+    }
+    #nav_opt a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bolder;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #navbar:hover{
+        /* height: 45px; */
+        box-shadow: 10px 5px 5px rgb(70, 220, 240);
+        border-radius: 15px;
+        font-size: larger;
+        text-shadow: 2px 5px 12px rgb(175, 250, 240);
+        border: 3px solid rgb(165, 164, 164);
+        padding: 25px;
+    }
+
+    #hero_page{
+        border: 1px solid rgb(78, 77, 77);
+        margin-top: 2px;
+        padding: 3px;
+        border-radius: 15px;
+    }
+    #hero_page:hover{
+        border: 3px solid rgb(165, 164, 164);
+        margin-top: 2px;
+        padding: 3px;
+        color:rgb(3, 3, 3);
+        font-size: larger;
+        /* height: 35px; */
+        box-shadow: 10px 5px 5px rgb(70, 220, 240);
+        border-radius: 15px;
+        text-shadow: 2px 5px 12px rgb(175, 250, 240);
+    }
+    #projects{
+        border: 1px solid rgb(78, 77, 77);
+        margin-top: 2px;
+        padding: 3px;
+        border-radius: 15px;
+       
+    }
+
+    #projects:hover{
+        border: 3px solid rgb(165, 164, 164);
+        margin-top: 2px;
+        padding: 3px;
+        color:rgb(3, 3, 3);
+        font-size: larger;
+        /* height: 145px; */
+        box-shadow: 10px 5px 5px rgb(70, 220, 240);
+        border-radius: 15px;
+        text-shadow: 2px 5px 12px rgb(175, 250, 240);
+    }
+    #title{
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    #pro_name a{
+        text-decoration: none;
+        color: rgb(0, 89, 255);
+        text-align: center;
+    }
+    #aboutme{
+        border: 1px solid black;
+        margin-top: 2px;
+        padding: 3px;
+        border-radius: 15px;
+        
+    }
+    #aboutme:hover{
+        border: 3px solid rgb(165, 164, 164);
+        margin-top: 2px;
+        padding: 3px;
+        color:rgb(3, 3, 3);
+        font-size: larger;
+        /* height: 195px; */
+        box-shadow: 10px 5px 5px rgb(70, 220, 240);
+        border-radius: 15px;
+        text-shadow: 2px 5px 12px rgb(175, 250, 240);
+    }
+
+       #details{
+        text-align: center;
+        font-weight: bolder;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 15px;
+    }
+    #Pro_img{
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+    
+   
+    #skill{
+        border: 1px solid rgb(8, 8, 8);
+        text-align: center;
+        border-radius: 15px;
+    }
+     #skill a{
+        text-decoration: none;
+        color: rgb(0, 89, 255);
+        text-align: center;
+        padding: 5px;
+        font-weight: bold;
+     }
+
+     #skill_title{
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 5px;
+    }
+
+
+    #skill{
+        border: 1px solid black;
+        margin-top: 2px;
+        padding: 3px;
+       
+    }
+#form_social{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    margin-top: 2px;
+    padding: 3px;
+    border-radius: 15px;
+}
+#skill:hover{
+        border: 3px solid rgb(165, 164, 164);
+        margin-top: 2px;
+        padding: 3px;
+        color:rgb(3, 3, 3);
+        font-size: larger;
+        /* height: 100px; */
+        box-shadow: 10px 5px 5px rgb(70, 220, 240);
+        border-radius: 15px;
+        text-shadow: 2px 5px 12px rgb(175, 250, 240);
+    }
+#form_social{
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid black;
+        padding: 15px;
+        
+       
+    }
+    #socialmedia a{
+        height: 35px;
+        padding: 15px;
+    }
+    #socialmedia a:hover{
+        border: 3px solid rgb(165, 164, 164);
+        margin-top: 2px;
+        padding: 3px;
+        color:rgb(3, 3, 3);
+        font-size: larger;
+        /* height: 100px; */
+        box-shadow: 10px 5px 5px rgb(70, 220, 240);
+        border-radius: 15px;
+        text-shadow: 2px 5px 12px rgb(175, 250, 240);
+    }
+    footer {
+       
+        text-align: center;
+        padding: 10px;
+        font-size: 15px;
+        color: #070707;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+  
+    img:hover {
+  box-shadow: 0 0 30px rgba(139, 231, 185, 0.6);
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+  border-radius: 15px
+}
+
+</style>
+</head>
+
+<body>
+    <html>
+        <div id="main">
+            <div id="navbar">
+                <div id="logo">
+                        <img src="" alt="logo_here">
+                </div>
+                <div id="nav_opt">
+                    <a href="#">Home</a> |
+                    <a href="#">About</a> |
+                    <a href="#">Projects</a> |
+                    <a href="#">Contact</a>
+                </div>
+
+            </div>
+            <div id="hero_page">
+                    <h2 style="text-align: center;">Hi... This is Mehul Patel</h2>
+                    <h3 style="text-align: center;">Frontend Developer | Data Anaylst</h3>
+                    <h4>
+                        I’m a frontend developer and data analyst passionate about building fast, 
+                        accessible, and engaging web applications while uncovering the stories hidden in data. 
+                        From pixel‑perfect UI in React and Next.js to impactful dashboards in Power BI and Tableau, 
+                        my work bridges creativity and strategy. Whether it’s optimizing a user journey or revealing a 
+                        growth opportunity through analytics, I deliver solutions that are beautiful, functional, 
+                        and measurable.
+                    </h4>
+            </div>
+            <div id="projects">
+                <div id="title">PROJECTS</div>
+                <div id="pro_name">
+                    <ul>
+                        <li><a href="#">Portfolio Website</a></li>
+                        <li><a href="#">Blog Page</a></li>
+                        <li><a href="#">Analytics Dashboard or Case Study</a></li>
+                       </ul> 
+                </div>                                                              
+            </div>
+            <div id="aboutme">
+                    <div id="Pro_img">
+                        <img src="file:///C:/Users/ELITEBOOK/Downloads/111.png" alt="pro_img" style="width:100px; height:100px">
+                    </div>
+                    <div id="details">
+                        Hello,I am Developer and also a Data Anaylst in Torrent Pharma at Ahmedabad. <br>
+                        Love to work on Web Development & also Data anaylst.
+                    </div>
+                    <div style="display: flex; justify-content: center; align-items: center; height: 5vh;">
+                        <button onclick="abc()" style="color: red;">Resume</button>
+                    </div>
+                    
+                    
+            </div>
+           <div id="skill">
+            <div id="skill_title">SKILL</div>
+            <div id="skill_name">
+            <a href="#" target="_blank"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-html-5-48.png" style="width:30px; height:30px;"></a> |
+            <a href="#" target="_blank"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-css-logo-48.png" style="width:30px; height:30px;"></a> |
+            <a href="#" target="_blank"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-javascript-logo-50.png" style="width:30px; height:30px;"></a> |
+            <a href="#" target="_blank"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-microsoft-excel-48.png" style="width:30px; height:30px;"></a> |
+            <a href="#" target="_blank"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-power-bi-48.png" style="width:30px; height:30px;"></a> |
+            <a href="#" target="_blank"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-react-native-48.png" style="width:30px; height:30px;"></a> |
+            <a href="#" target="_blank"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-git-logo-50.png" style="width:30px; height:30px;"></a>
+            </div>
+           
+           </div>
+            <div id="form_social">
+                <!-- <div id="form">
+                       Connect
+                </div> -->
+                <div id="socialmedia">
+                    <a href="#"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-github-logo-50.png" style="width:30px; height:30px;"></a>
+                    <a href="#"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-gmail-logo-50.png" style="width:30px; height:30px;"></a>
+                    <a href="#"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-instagram-logo-50.png" style="width:30px; height:30px;"></a>
+                    <a href="#"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-linkedin-logo-50.png" style="width:30px; height:30px;"></a>
+                   
+                    <a href="#"><img src="file:///C:/Users/ELITEBOOK/Downloads/icons8-whatsapp-logo-48.png" style="width:30px; height:30px;"></a>
+
+                </div>
+            </div>           
+        </div>
+        <footer>
+            &copy; Mehul Patel
+    </html>
+</body>
+</html>
