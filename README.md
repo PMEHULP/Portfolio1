@@ -1,4 +1,3 @@
-# Portfolio1 - 28-08-2025
 # 💼 Mehul Patel — Portfolio Dashboard
 
 Welcome to my personal portfolio dashboard! I'm Mehul Patel, a **Frontend Developer** and **Data Analyst** passionate about crafting responsive web applications and uncovering insights from data.
@@ -15,11 +14,14 @@ This dashboard showcases my professional journey, technical skills, and featured
   - Portfolio Website
   - Blog Page
   - Analytics Dashboard (Case Study)
-- 🧠 **Skills Section** — Technologies I work with: HTML, CSS, JavaScript, React, Python, Excel, GitHub
+- 🧠 [**Skills Section**](#skills) — Technologies I work with: HTML, CSS, JavaScript, React, Python, Excel, GitHub
+- 📬 [**Contact Section**](#contact) — Social media links and search bar
 - 📸 **Profile Section** — Personal photo and CV download
-- 📬 **Contact Section** — Social media links and search bar
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: HTML5, CSS3
+- **Frontend**: HTML5, CSS3, JavaScript
+
+
+
 
